@@ -50,3 +50,21 @@ header nav button{
     background-color: transparent;
     border: none;
 }
+header nav button:hover{
+    color:red;
+}
+header nav a{
+    color: black;
+    text-decoration: none;
+}
+.icon-link{
+    display: flex;
+    justify-content: center;
+}
+
+.search-icon{
+    color:black;
+}
+.search-icon:hover{
+    color:red;
+}
