@@ -68,3 +68,26 @@ header nav a{
 .search-icon:hover{
     color:red;
 }
+
+main#archives{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+#archives table{
+    width: 100vw;
+    border-spacing: 0;
+    
+}
+th {
+    cursor: pointer;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2
+  }

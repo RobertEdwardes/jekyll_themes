@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
+<body >
     <header>
         <nav>
             <a href="index.html" class="icon-link"><svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 100 100" width="100" height="100">
@@ -27,15 +27,15 @@
               </a>
         </nav>
     </header>
-    <main id="archvies">
-        <table>
-            <thead>
-                <th>Week</th>
-                <th>Category</th>
-                <th>Author</th>
-                <th>Filter by Category</th>
-            </thead>
-            <tbody>
+    <main id="archives">
+        <dvi>
+            <table id="aTable">
+                <tr>
+                    <th onclick="sortTable(0)">Week</th>
+                    <th onclick="sortTable(1)">Category</th>
+                    <th onclick="sortTable(2)">Author</th>
+                    <th onclick="sortTable(3)">Filter by Category</th>
+                </tr>
                 <tr>
                     <td>12.12.12</td>
                     <td>Visual Art</td>
@@ -48,8 +48,8 @@
                     <td>Not Me</td>
                     <td>row 2</td>
                 </tr>
-            </tbody>
-        </table>
+            </table>
+        </dvi>
     </main>
 </body>
     <script src="app.js"></script>
